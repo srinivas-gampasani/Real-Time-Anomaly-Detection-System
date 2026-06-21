@@ -1,0 +1,7 @@
+{
+  "event_id": "92617845ab760b95",
+  "timestamp": 1782050819339.384,
+  "service": "api-gateway",
+  "metric_name": "network_bytes_out",
+  "value": 6510150.1259,
+  "is_anomaly": 

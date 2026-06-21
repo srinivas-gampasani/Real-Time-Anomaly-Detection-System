@@ -1,0 +1,19 @@
+{
+  "text": "\ud83d\udfe1 *Anomaly Alert \u2014 Medium*",
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\ud83d\udfe1 *Medium Anomaly* on `inventory-service`\n*Metric:* `network_bytes_out` | *Value:* `6825321.4692`\n*Confidence:* `62.76%`\n*Time:* `2026-06-21T14:07:08Z`"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Message:* [MEDIUM] Anomaly detected on inventory-service | metric=network_bytes_out | value=6825321.4692 | confidence=62.76% | detectors=['IsolationForest', 'Autoencoder']"
+      }
+    }
+  ]
+}

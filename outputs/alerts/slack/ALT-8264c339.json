@@ -1,0 +1,19 @@
+{
+  "text": "\ud83d\udfe1 *Anomaly Alert \u2014 Medium*",
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\ud83d\udfe1 *Medium Anomaly* on `auth-service`\n*Metric:* `error_rate` | *Value:* `0.0017`\n*Confidence:* `51.94%`\n*Time:* `2026-06-21T14:09:15Z`"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Message:* [MEDIUM] Anomaly detected on auth-service | metric=error_rate | value=0.0017 | confidence=51.94% | detectors=['IsolationForest', 'ControlCharts']"
+      }
+    }
+  ]
+}

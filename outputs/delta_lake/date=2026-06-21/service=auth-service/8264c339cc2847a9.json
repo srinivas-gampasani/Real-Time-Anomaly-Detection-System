@@ -1,0 +1,25 @@
+{
+  "event_id": "8264c339cc2847a9",
+  "timestamp": 1782050955912.4963,
+  "service": "auth-service",
+  "metric_name": "error_rate",
+  "value": 0.0017,
+  "is_anomaly": "True",
+  "ensemble_confidence": 0.5194,
+  "severity": "Medium",
+  "votes": {
+    "IsolationForest": "True",
+    "Autoencoder": "False",
+    "ControlCharts": true
+  },
+  "detector_confidences": {
+    "IsolationForest": 0.9379,
+    "Autoencoder": 0.0724,
+    "ControlCharts": 0.5528
+  },
+  "fusion_strategy": "majority_vote",
+  "latency_ms": 0.089,
+  "_delta_ts": 1782050935.79201,
+  "_partition_date": "2026-06-21",
+  "_partition_service": "auth-service"
+}

@@ -1,0 +1,25 @@
+{
+  "event_id": "e60bec87aeb216b4",
+  "timestamp": 1782050941522.8164,
+  "service": "api-gateway",
+  "metric_name": "api_latency_ms",
+  "value": 691.2,
+  "is_anomaly": "True",
+  "ensemble_confidence": 0.6758,
+  "severity": "High",
+  "votes": {
+    "IsolationForest": "True",
+    "Autoencoder": "False",
+    "ControlCharts": true
+  },
+  "detector_confidences": {
+    "IsolationForest": 0.9117,
+    "Autoencoder": 0.1619,
+    "ControlCharts": 1.0
+  },
+  "fusion_strategy": "majority_vote",
+  "latency_ms": 0.098,
+  "_delta_ts": 1782050935.0137112,
+  "_partition_date": "2026-06-21",
+  "_partition_service": "api-gateway"
+}

@@ -1,0 +1,16 @@
+{
+  "routing_key": "SIMULATED_PD_ROUTING_KEY",
+  "event_action": "trigger",
+  "dedup_key": "ALT-a59b38c5",
+  "payload": {
+    "summary": "[HIGH] Anomaly detected on payment-service | metric=requests_per_sec | value=9518.4000 | confidence=69.27% | detectors=['Autoencoder', 'ControlCharts']",
+    "severity": "high",
+    "source": "payment-service",
+    "timestamp": "2026-06-21T14:09:31Z",
+    "custom_details": {
+      "metric": "requests_per_sec",
+      "value": 9518.4,
+      "confidence": 0.6927
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "IsolationForest": {
+    "method": "IsolationForest",
+    "total_events": 47000,
+    "true_positives": 25,
+    "false_positives": 1077,
+    "true_negatives": 45314,
+    "false_negatives": 584,
+    "precision": 0.0227,
+    "recall": 0.0411,
+    "f1": 0.0292,
+    "accuracy": 0.9647,
+    "false_positive_rate": 0.0232,
+    "avg_confidence_anomaly": 0.5529,
+    "avg_confidence_normal": 0.2885,
+    "per_type": {
+      "memory_leak": {
+        "count": 88,
+        "detected": 0,
+        "recall": 0.0
+      },
+      "pipeline_failure": {
+        "count": 163,
+        "detected": 3,
+        "recall": 0.0184
+      },
+      "error_storm": {
+        "count": 137,
+        "detected": 2,
+        "recall": 0.0146
+      },
+      "network_degradation": {
+        "count": 92,
+        "detected": 7,
+        "recall": 0.0761
+      },
+      "traffic_spike": {
+        "count": 129,
+        "detected": 13,
+        "recall": 0.1008
+      }
+    }
+  },
+  "Autoencoder": {
+    "method": "Autoencoder",
+    "total_events": 47000,
+    "true_positives": 218,
+    "false_positives": 1283,
+    "true_negatives": 45108,
+    "false_negatives": 391,
+    "precision": 0.1452,
+    "recall": 0.358,
+    "f1": 0.2066,
+    "accuracy": 0.9644,
+    "false_positive_rate": 0.0277,
+    "avg_confidence_anomaly": 0.2958,
+    "avg_confidence_normal": 0.0981,
+    "per_type": {
+      "memory_leak": {
+        "count": 88,
+        "detected": 0,
+        "recall": 0.0
+      },
+      "pipeline_failure": {
+        "count": 163,
+        "detected": 0,
+        "recall": 0.0
+      },
+      "error_storm": {
+        "count": 137,
+        "detected": 0,
+        "recall": 0.0
+      },
+      "network_degradation": {
+        "count": 92,
+        "detected": 92,
+        "recall": 1.0
+      },
+      "traffic_spike": {
+        "count": 129,
+        "detected": 126,
+        "recall": 0.9767
+      }
+    }
+  },
+  "ControlCharts": {
+    "method": "ControlCharts",
+    "total_events": 47000,
+    "true_positives": 524,
+    "false_positives": 661,
+    "true_negatives": 45730,
+    "false_negatives": 85,
+    "precision": 0.4422,
+    "recall": 0.8604,
+    "f1": 0.5842,
+    "accuracy": 0.9841,
+    "false_positive_rate": 0.0142,
+    "avg_confidence_anomaly": 0.9086,
+    "avg_confidence_normal": 0.1699,
+    "per_type": {
+      "memory_leak": {
+        "count": 88,
+        "detected": 3,
+        "recall": 0.0341
+      },
+      "pipeline_failure": {
+        "count": 163,
+        "detected": 163,
+        "recall": 1.0
+      },
+      "error_storm": {
+        "count": 137,
+        "detected": 137,
+        "recall": 1.0
+      },
+      "network_degradation": {
+        "count": 92,
+        "detected": 92,
+        "recall": 1.0
+      },
+      "traffic_spike": {
+        "count": 129,
+        "detected": 129,
+        "recall": 1.0
+      }
+    }
+  },
+  "Ensemble": {
+    "method": "Ensemble",
+    "total_events": 47000,
+    "true_positives": 223,
+    "false_positives": 625,
+    "true_negatives": 45766,
+    "false_negatives": 386,
+    "precision": 0.263,
+    "recall": 0.3662,
+    "f1": 0.3061,
+    "accuracy": 0.9785,
+    "false_positive_rate": 0.0135,
+    "avg_confidence_anomaly": 0.4282,
+    "avg_confidence_normal": 0.0992,
+    "per_type": {
+      "memory_leak": {
+        "count": 88,
+        "detected": 0,
+        "recall": 0.0
+      },
+      "pipeline_failure": {
+        "count": 163,
+        "detected": 3,
+        "recall": 0.0184
+      },
+      "error_storm": {
+        "count": 137,
+        "detected": 2,
+        "recall": 0.0146
+      },
+      "network_degradation": {
+        "count": 92,
+        "detected": 92,
+        "recall": 1.0
+      },
+      "traffic_spike": {
+        "count": 129,
+        "detected": 126,
+        "recall": 0.9767
+      }
+    }
+  }
+}

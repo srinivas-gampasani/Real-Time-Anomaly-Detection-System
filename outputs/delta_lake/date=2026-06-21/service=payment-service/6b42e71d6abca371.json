@@ -1,0 +1,25 @@
+{
+  "event_id": "6b42e71d6abca371",
+  "timestamp": 1782050828088.696,
+  "service": "payment-service",
+  "metric_name": "network_bytes_out",
+  "value": 3360046.9771,
+  "is_anomaly": "True",
+  "ensemble_confidence": 0.5491,
+  "severity": "Medium",
+  "votes": {
+    "IsolationForest": "True",
+    "Autoencoder": "True",
+    "ControlCharts": false
+  },
+  "detector_confidences": {
+    "IsolationForest": 0.8878,
+    "Autoencoder": 0.3799,
+    "ControlCharts": 0.3515
+  },
+  "fusion_strategy": "majority_vote",
+  "latency_ms": 0.084,
+  "_delta_ts": 1782050830.594749,
+  "_partition_date": "2026-06-21",
+  "_partition_service": "payment-service"
+}

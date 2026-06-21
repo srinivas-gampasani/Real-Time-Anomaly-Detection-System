@@ -1,0 +1,7 @@
+{
+  "pipeline_failure": 3.22,
+  "memory_leak": null,
+  "traffic_spike": 0.0,
+  "error_storm": 0.02,
+  "network_degradation": 0.0
+}

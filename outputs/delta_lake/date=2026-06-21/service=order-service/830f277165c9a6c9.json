@@ -1,0 +1,25 @@
+{
+  "event_id": "830f277165c9a6c9",
+  "timestamp": 1782050938305.3765,
+  "service": "order-service",
+  "metric_name": "network_bytes_out",
+  "value": 6324966.6016,
+  "is_anomaly": "True",
+  "ensemble_confidence": 0.5874,
+  "severity": "Medium",
+  "votes": {
+    "IsolationForest": "True",
+    "Autoencoder": "True",
+    "ControlCharts": false
+  },
+  "detector_confidences": {
+    "IsolationForest": 0.9378,
+    "Autoencoder": 0.4933,
+    "ControlCharts": 0.2883
+  },
+  "fusion_strategy": "majority_vote",
+  "latency_ms": 0.125,
+  "_delta_ts": 1782050934.734809,
+  "_partition_date": "2026-06-21",
+  "_partition_service": "order-service"
+}

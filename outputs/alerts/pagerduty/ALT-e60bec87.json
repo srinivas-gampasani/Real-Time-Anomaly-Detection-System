@@ -1,0 +1,16 @@
+{
+  "routing_key": "SIMULATED_PD_ROUTING_KEY",
+  "event_action": "trigger",
+  "dedup_key": "ALT-e60bec87",
+  "payload": {
+    "summary": "[HIGH] Anomaly detected on api-gateway | metric=api_latency_ms | value=691.2000 | confidence=67.58% | detectors=['IsolationForest', 'ControlCharts']",
+    "severity": "high",
+    "source": "api-gateway",
+    "timestamp": "2026-06-21T14:09:01Z",
+    "custom_details": {
+      "metric": "api_latency_ms",
+      "value": 691.2,
+      "confidence": 0.6758
+    }
+  }
+}
